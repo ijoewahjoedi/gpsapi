@@ -1,7 +1,7 @@
-// var exec = require('cordova/exec');
-// function Gpsapi() { 
-//   console.log("Gpsapi.js: is created");
-// }
+var exec = require('cordova/exec');
+function Gpsapi() { 
+  console.log("Gpsapi.js: is created");
+}
 // Gpsapi.prototype.getLocation = function(aString){
 //   console.log("Gpsapi.js: getLocation");
 //   exec(
@@ -19,7 +19,7 @@
 //
 
 
-cordova.define('cordova/plugin/Gpsapi', function(require, export, module){
+// cordova.define('cordova/plugin/Gpsapi', function(require, export, module){
   var exec = require('cordova/exec');
 
   var Gpsapi = function() {};
@@ -30,4 +30,4 @@ cordova.define('cordova/plugin/Gpsapi', function(require, export, module){
 
   module.exports = new Gpsapi();
 
-});
+// });
