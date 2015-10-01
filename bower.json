@@ -11,7 +11,7 @@
     "*.md",
     "*.xml",
     "*.json",
-      "gulpfile.js
+    "gulpfile.js,
     "package.json"
   ],
   "devDependencies": {
