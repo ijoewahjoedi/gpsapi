@@ -4,7 +4,6 @@
   "main": "dist/gpsapi.js",
   "license": "Apache",
   "ignore": [
-    "**/.*",
     "build",
     "speed",
     "src",
