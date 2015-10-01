@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "name": "org.ijoewahjoedi.cordova.plugin.gpsapi",
+  "name": "org.ijoewahjoedi.gpsapi",
   "cordova_name": "Gpsapi",
   "description": "GPS Api Interface",
   "license": "Apache 2.0",
