@@ -19,11 +19,11 @@
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="Gpsapi">
-        <param name="android-package" value="org.ijoewahjoedi.cordova.plugin.Gpsapi"/>
+        <param name="android-package" value="org.ijoewahjoedi.Gpsapi"/>
       </feature>
     </config-file>
 
-    <source-file src="src/org/ijoewahjoedi/cordova/plugin/Gpsapi.java" target-dir="com/ijoewahjoedi/gpsapi"/>
+    <source-file src="src/org/ijoewahjoedi/cordova/plugin/Gpsapi.java" target-dir="src/com/ijoewahjoedi/gpsapi"/>
   </platform>
 
 </plugin>

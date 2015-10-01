@@ -1,4 +1,4 @@
-package org.ijoewahjoedi.cordova.plugin;
+package com.ijoewahjoedi.gpsapi;
 
 import org.apache.cordova.api.CordovaPlugin;
 import org.apache.cordova.api.PluginResult;
@@ -15,21 +15,22 @@ public class Gpsapi extends CordovaPlugin {
   @Override
   public boolean execute (String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
     if (action.equals("getLocation")) {
-      String message = args.getString(0);
+      // String message = args.getString(0);
       message = "DI CAFE";
-      this.echo(message callbackContext);
+      callbackContext.success(message);
+      // this.echo(message callbackContext);
       return true;
     }
     return false;
   }
 
-  private void echo (String message, CallbackContext callbackContext) {
-    if (message != null && message.length() > 0) {
-      callbackContext.success(message);
-    } else {
-      callbackContext.error("Expected one non-empty string argument.");
-    }
-  }
+  // private void echo (String message, CallbackContext callbackContext) {
+  //   if (message != null && message.length() > 0) {
+  //     callbackContext.success(message);
+  //   } else {
+  //     callbackContext.error("Expected one non-empty string argument.");
+  //   }
+  // }
 
 
 }
