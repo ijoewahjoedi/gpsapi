@@ -2,8 +2,8 @@ var exec = require('cordova/exec');
 function Gpsapi() { 
   console.log("Gpsapi.js: is created");
 }
-Gpsapi.prototype.echo = function(aString){
-  console.log("Gpsapi.js: echo");
+Gpsapi.prototype.getLocation = function(aString){
+  console.log("Gpsapi.js: getLocation");
   exec(
       function(result){ 
         /*alert("OK" + reply);*/ 
