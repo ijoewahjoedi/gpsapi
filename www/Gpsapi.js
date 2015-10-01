@@ -28,6 +28,6 @@ cordova.define('cordova/plugin/Gpsapi', function(require, export, module){
     exec(onSuccess, onFailed, 'Gpsapi', 'getLocation', []);
   }
 
-  module.export = new Gpsapi();
+  module.exports = new Gpsapi();
 
 });
