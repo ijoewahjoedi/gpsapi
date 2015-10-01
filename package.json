@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "name": "org.ijoewahjoedi.cordova.plugin.gpsapi",
+  "cordova_name": "Gpsapi",
+  "description": "GPS Api Interface",
+  "license": "Apache 2.0",
+  "repo": "",
+  "issue": "",
+  "keywords": [
+    "cordova",
+    "device"
+  ],
+  "platforms": [
+    "android",
+  ],
+  "engines": [],
+  "englishdoc": ""
+}
