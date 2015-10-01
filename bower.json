@@ -4,11 +4,12 @@
   "main": "dist/Gpsapi.js",
   "license": "Apache",
   "ignore": [
+    "**/.*",
     "src",
     "www",
     "*.md",
     "*.xml",
-    "bower.json",
+    "*.json",
     "package.json"
   ],
   "devDependencies": {
