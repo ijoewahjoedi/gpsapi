@@ -1,19 +1,14 @@
 {
   "name": "gpsapi",
   "version": "0.1.0",
-  "main": "dist/gpsapi.js",
+  "main": "dist/Gpsapi.js",
   "license": "Apache",
   "ignore": [
-    "build",
-    "speed",
     "src",
     "www",
-    "test",
     "*.md",
     "*.xml",
-    "AUTHORS.txt",
-    "Gruntfile.js",
-    "*.json",
+    "bower.json",
     "package.json"
   ],
   "devDependencies": {
