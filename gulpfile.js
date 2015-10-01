@@ -7,6 +7,6 @@ var gulp   = require('gulp')
 gulp.task('default', ['build']);
 
 // configure which files to watch and what tasks to use on file changes
-gulp.task('watch', function() {
+gulp.task('build', function() {
   gulp.src('www/*.js').pipe(gulp.dest('dest'));
   });
