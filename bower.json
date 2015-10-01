@@ -1,0 +1,24 @@
+{
+  "name": "gpsapi",
+  "version": "0.1.0",
+  "main": "dist/gpsapi.js",
+  "license": "Apache",
+  "ignore": [
+    "**/.*",
+    "build",
+    "dist/cdn",
+    "speed",
+    "test",
+    "*.md",
+    "AUTHORS.txt",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "devDependencies": {
+  },
+  "keywords": [
+    "gps",
+    "javascript",
+    "library"
+  ]
+}

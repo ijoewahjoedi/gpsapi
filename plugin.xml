@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+  id="com.ijoewahjoedi.gpsapi"
+  version="0.1.0">
+
+  <name>gpsapi</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/gpsapi.js" target="js/gpsapi.js"/>
+
+  <js-module src="www/gpsapi.js" name="gpsapi">
+    <clobbers target="echo" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Gpsapi">
+        <param name="android-package" value="org.ijoewahjoedi.cordova.plugin.Gpsapi"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/org/ijoewahjoedi/cordova/plugin/Gpsapi.java" target-dir="com/ijoewahjoedi/gpsapi"/>
+  </platform>
+
+</plugin>
