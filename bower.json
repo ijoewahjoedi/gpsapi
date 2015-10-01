@@ -5,6 +5,7 @@
   "license": "Apache",
   "ignore": [
     "**/.*",
+    "node_modules/*",
     "src",
     "www",
     "*.md",
