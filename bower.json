@@ -6,12 +6,15 @@
   "ignore": [
     "**/.*",
     "build",
-    "dist/cdn",
     "speed",
+    "src",
+    "www",
     "test",
     "*.md",
+    "*.xml",
     "AUTHORS.txt",
     "Gruntfile.js",
+    "*.json",
     "package.json"
   ],
   "devDependencies": {
