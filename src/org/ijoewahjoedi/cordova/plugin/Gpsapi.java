@@ -14,8 +14,9 @@ import org.json.JSONObject;
 public class Gpsapi extends CordovaPlugin {
   @Override
   public boolean execute (String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-    if (action.equals("echo")) {
+    if (action.equals("getLocation")) {
       String message = args.getString(0);
+      message = "DI CAFE";
       this.echo(message callbackContext);
       return true;
     }
