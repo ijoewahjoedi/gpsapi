@@ -23,7 +23,7 @@
       </feature>
     </config-file>
 
-    <source-file src="src/org/ijoewahjoedi/cordova/plugin/Gpsapi.java" target-dir="src/com/ijoewahjoedi/gpsapi"/>
+    <source-file src="src/android/Gpsapi.java" target-dir="src/com/ijoewahjoedi/gpsapi"/>
   </platform>
 
 </plugin>
