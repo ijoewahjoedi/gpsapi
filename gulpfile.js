@@ -8,5 +8,5 @@ gulp.task('default', ['build']);
 
 // configure which files to watch and what tasks to use on file changes
 gulp.task('build', function() {
-  gulp.src('www/*.js').pipe(gulp.dest('dest'));
+  gulp.src('www/*.js').pipe(gulp.dest('dist'));
   });
